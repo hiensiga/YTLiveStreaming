@@ -17,6 +17,7 @@ import KeychainAccess
 // For more info see https://developers.google.com/identity/protocols/OAuth2WebServer#handlingtheresponse
 // And https://developers.google.com/+/web/api/rest/oauth
 
+@objcMembers
 public class GoogleOAuth2: NSObject {
 
    let keychain:  Keychain
